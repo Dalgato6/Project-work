@@ -6,6 +6,6 @@
     max-height: 756px;
     margin: auto;
     background-color: #f2f2f2;
-    
+    overflow: hidden;
     /* выше установили ограничения для секции */
   }
