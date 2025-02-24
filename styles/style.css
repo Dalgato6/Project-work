@@ -59,7 +59,10 @@
 @import url(../blocks/footer/__column/-links/__sett/footer__column-links__sett.css);
 @import url(../blocks/footer/__column/-links/__inline/footer__column-links__inline.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-
+@import url(../blocks/content/techniques/techniques.css);
+@import url(../blocks/content/techniques/cards/cards.css);
+@import url(../blocks/content/techniques/cards/__image/cards__image.css);
+@import url(../blocks/content/techniques/cards/__item/cards__item.css);
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
@@ -95,4 +98,8 @@
 .footer__column-link{
   padding-left: 10px;
   display: grid;
+}
+
+.cards__item:last-of-type{
+  margin-right: 0;
 }
