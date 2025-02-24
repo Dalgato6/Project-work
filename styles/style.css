@@ -3,7 +3,7 @@
 @import url(../blocks/header/logo/_place_header/place_header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
-@import url(../blocks/header/__illustration/header__illustration);
+@import url(../blocks/header/__illustration/header__illustration.css);
 @import url(../blocks/header/__square-plc/header__square-plc.css);
 @import url(../blocks/header/__link/);
 @import url(../blocks/content/description/description.css);
@@ -41,6 +41,23 @@
 @import url(../blocks/content/kaufman/section-title/__sett_theme_dark/section-title__sett_theme_dark.css);
 @import url(../blocks/content/kaufman/section-subtitle/__sett_theme_dark/section-subtitle__sett_theme_dark.css);
 @import url(../blocks/content/kaufman/table_theme_dark/table_theme_dark.css);
+@import url(../blocks/content/digits/table/__cell/_theme_dark/table__cell_theme_dar.css);
+@import url(../blocks/content/digits/table/__heading/__title/_theme_dark__title/table__heading_theme_dark__title.css);
+@import url(../blocks/content/digits/table/__text/__subtitle/_theme_dark/table__text_theme_dark__subtitle.css);
+@import url(../blocks/content/kaufman/__triangle/kaufman__triangle.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__author/__sett/footer__author__sett.css);
+@import url(../blocks/footer/__column/_content_copyright/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content_info/footer__column_content_info.css);
+@import url(../blocks/footer/__column/-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column/-heading/_text-sett/footer__column-heading_text-sett.css);
+@import url(../blocks/footer/__column/-links/footer__column-links.css);
+@import url(../blocks/footer/__column/-links/__inline/footer__column-links__inline.css);
+@import url(../blocks/footer/__column/-links/__sett/footer__column-links__sett.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
 
 
 .page {
@@ -74,154 +91,21 @@
   font-weight: 600;
 }
 
-
-
-
-
-
-
 .table__cell:last-of-type{
   margin-right: 0;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.table__cell_theme_dark{
-  width: 200px;
-  z-index: 2;
-}
-
-.table__heading_theme_dark__title{
-  color: white;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.table__text_theme_dark__subtitle{
-  color: white;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.kaufman__triangle{
-  position: absolute;
-  width: 877px;
-  height: 877px;
-  top: 0;
-  right: -210px;
-  margin: 0 0 0 0;
-  z-index: 0; 
-}
-
-.footer{
-  background-color: #1f1f1f;
-  min-height: 350px;
-  padding-top: 60px;
-}
-
-.footer__column{
-  min-height: 250px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 90%;
-  margin: 60px auto 40px auto;
-}
-
 .logo_place_footer{
   height: 32px;
   width: 228px;
 }
 
-.footer__author{
-  color: white;
-  margin: 18px 0 18px 0;
-}
 
-.footer__author__sett{
-  margin: 0 0 0 0;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.footer__column_content_copyright{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-basis: 711px;
-}
-
-.footer__column_content_info{
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column-heading{
-  margin: 0 0 0 0;
-}
-
-.footer__column-heading_text-sett{
-  color: white;
-  margin: 0 0 0 0;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.footer__column-links{
-  display: grid;
-  margin: 20px 0 16px 0;
-}
-
-.footer__column-links__inline{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-.footer__column-links__sett{
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  color:  #f2f2f2;
-  text-decoration: none;
-}
-
-.footer__social-icon{
-  display: grid;
-  width: 16px;
-}
 
 .img__size{
   width: 16px;
   height: 16px;
 }
 
-.footer__column-link{
-  padding-left: 10px;
-  display: grid;
-}

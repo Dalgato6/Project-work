@@ -1,0 +1,6 @@
+.footer__column-links__inline{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
