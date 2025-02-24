@@ -18,6 +18,29 @@
 @import url(../blocks/content/description/two-columns/__paragraph/_sec_two/two-columns__paragraph_sec_two.css);
 @import url(../blocks/content/description/two-columns/__paragraph/_sec_two/__marginTB/two-columns__paragraph_sec_two__marginTB.css);
 @import url(../blocks/content/description/two-columns/__paragraph/_sec_two/_span_text/two-columns__paragraph_sec_two_span_text.css);
+@import url(../blocks/content/description/two-columns/__paragraph/_sec_three/two-columns__paragraph_sec_three.css);
+@import url(../blocks/content/digits/digits.css);
+@import url(../blocks/content/digits/section-title/section-title.css);
+@import url(../blocks/content/digits/section-subtitle/section-subtitle.css);
+@import url(../blocks/content/digits/table/table.css);
+@import url(../blocks/content/digits/section-title/__sett/section-title__sett.css);
+@import url(../blocks/content/digits/section-subtitle/__sett/section-subtitle__sett.css);
+@import url(../blocks/content/digits/table/__cell/table__cell.css);
+@import url(../blocks/content/digits/table/__heading/table__heading.css);
+@import url(../blocks/content/digits/table/__heading/__title/table__heading__title.css);
+@import url(../blocks/content/digits/table/__text/table__text.css);
+@import url(../blocks/content/digits/table/__text/__subtitle/table__text__subtitle.css);
+@import url(../blocks/content/feyman/feyman.css);
+@import url(../blocks/content/feyman/__title/feynman__title.css);
+@import url(../blocks/content/feyman/__title/__sett/feynman__title__sett.css);
+@import url(../blocks/content/feyman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/content/feyman/__subtitle/__sett/feynman__subtitle__sett.css);
+@import url(../blocks/content/feyman/__link/feynman__link.css);
+@import url(../blocks/content/feyman/__link/__sett/feynman__link__sett.css);
+@import url(../blocks/content/kaufman/kaufman.css);
+@import url(../blocks/content/kaufman/section-title/__sett_theme_dark/section-title__sett_theme_dark.css);
+@import url(../blocks/content/kaufman/section-subtitle/__sett_theme_dark/section-subtitle__sett_theme_dark.css);
+@import url(../blocks/content/kaufman/table_theme_dark/table_theme_dark.css);
 
 
 .page {
@@ -51,139 +74,37 @@
   font-weight: 600;
 }
 
-.section-title{
-  display: flex;
-  width: 60%;
-  margin: 100px auto 20px auto;
-}
 
-.section-title__sett{
-  margin: auto;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-}
 
-.section-subtitle{
-  display: flex;
-  width: 60%;
-  margin: 0 auto 0 auto;
-}
 
-.section-subtitle__sett{
-  margin: auto;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
 
-.table{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1100px;
-  margin: 0 auto 100px auto;
-}
 
-.table__cell{
-  width: 250px;
-  margin-top: 60px;
-  margin-left: 0;
-  margin-bottom: 0;
-}
 
 .table__cell:last-of-type{
   margin-right: 0;
 }
 
-.table__heading__title{
-  margin: 0 0 0 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
 
-.table__text__subtitle{
-  margin: 20px 0 0 0;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
 
-.feynman{
-  height: 890px;
-  position: relative;
-  background-image: url(../images/feynman.png);
-  background-repeat: no-repeat;
-  background-size: 867px 637px;
-  background-position: bottom 0 left 0;
-}
 
-.feynman__title{
-  display: flex;
-  width: 648px;
-  margin: 100px auto 70px auto;
-}
 
-.feynman__title__sett{
-  text-align: center;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: 600;
-  margin: 0 auto 0 auto;
-}
 
-.feynman__subtitle{
-  display: flex;
-}
 
-.feynman__subtitle__sett{
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  margin: 0 auto 0 auto;
-}
 
-.feynman__link{
-  position: absolute;
-  right: 48px;
-  top: 50%;
-}
 
-.feynman__link__sett{
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  text-decoration: none;
-  color: #2f80ed;
-}
 
-.kaufman{
-  overflow: hidden;
-  position: relative;
-  background-color: #1f1f1f;
-}
 
-.section-title__sett_theme_dark{
-  margin: auto;
-  color: white;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-}
 
-.section-subtitle__sett_theme_dark{
-  margin: auto;
-  color: white;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
 
-.table_theme_dark{
-  z-index: 1;
-}
+
+
+
+
+
+
+
+
+
 
 .table__cell_theme_dark{
   width: 200px;
