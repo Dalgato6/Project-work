@@ -63,7 +63,15 @@
 @import url(../blocks/content/techniques/cards/cards.css);
 @import url(../blocks/content/techniques/cards/__image/cards__image.css);
 @import url(../blocks/content/techniques/cards/__item/cards__item.css);
+@import url(../blocks/content/techniques/cards/__title/cards__title.css);
+@import url(../blocks/content/techniques/cards/__title/__sett/cards__title__sett.css);
+@import url(../blocks/content/techniques/cards/description/cards__description.css);
+@import url(../blocks/content/techniques/title/__sett/title__sett.css);
+@import url(../blocks/content/techniques/cards/description/__sett/cards__description__sett.css);
 
+*{
+  border: 1px solid red;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
