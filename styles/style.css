@@ -70,6 +70,7 @@
 @import url(../blocks/content/techniques/cards/description/__sett/cards__description__sett.css);
 @import url(../blocks/content/video/video.css);
 @import url(../blocks/content/video/title__center/title__center.css);
+@import url(../blocks/content/video/__iframe/video__iframe.css);
 
 
 *{
