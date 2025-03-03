@@ -68,6 +68,9 @@
 @import url(../blocks/content/techniques/cards/description/cards__description.css);
 @import url(../blocks/content/techniques/title/__sett/title__sett.css);
 @import url(../blocks/content/techniques/cards/description/__sett/cards__description__sett.css);
+@import url(../blocks/content/video/video.css);
+@import url(../blocks/content/video/title__center/title__center.css);
+
 
 *{
   border: 1px solid red;
