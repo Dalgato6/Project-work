@@ -84,10 +84,13 @@
 @import url(../blocks/content/khan/__book-pic/khan__book-pic.css);
 @import url(../blocks/content/khan/__buy-link/khan__buy-link.css);
 @import url(../blocks/header/rotation/rotation.css);
+@import url(../blocks/content/resources/resources.css);
+@import url(../blocks/content/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/content/resources/__link/resources__link.css);
 
 
 *{
-  border: 1px solid red;
+  
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
