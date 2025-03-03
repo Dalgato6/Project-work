@@ -83,6 +83,7 @@
 @import url(../blocks/content/khan/__book-container/khan__book-container.css);
 @import url(../blocks/content/khan/__book-pic/khan__book-pic.css);
 @import url(../blocks/content/khan/__buy-link/khan__buy-link.css);
+@import url(../blocks/header/rotation/rotation.css);
 
 
 *{
